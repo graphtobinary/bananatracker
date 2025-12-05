@@ -46,5 +46,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation(project(":BananaTracker"))
+    implementation("com.github.graphtobinary:bananatracker:1.0.1")
 }
